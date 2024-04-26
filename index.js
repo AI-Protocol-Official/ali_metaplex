@@ -38,7 +38,7 @@ console.log("metadataPDA %o", metadataPda);
 const tokenMetadata = {
 	name: "Artificial Liquid Intelligence", // maximum 32 characters
 	symbol: "ALI", // maximum 8 characters
-	uri: "https://raw.githubusercontent.com/AI-Protocol-Official/ali_metaplex/master/ali_metadata.json",
+	uri: "https://raw.githubusercontent.com/AI-Protocol-Official/ali_metaplex/master/ali_metadata1.json",
 	sellerFeeBasisPoints: 0,
 	creators: null,
 	collection: null,
