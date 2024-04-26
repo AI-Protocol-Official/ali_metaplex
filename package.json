@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "metaplex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Basil Gorin",
+  "license": "MIT",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@solana/web3.js": "^1.91.7"
+  }
+}
