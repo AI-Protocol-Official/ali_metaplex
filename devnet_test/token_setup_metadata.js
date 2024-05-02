@@ -16,7 +16,7 @@ const rpcEndpoint = 'https://api.devnet.solana.com'; // 'https://api.mainnet-bet
 const umi = createUmi(rpcEndpoint).use(mplTokenMetadata());
 
 // Import your private key file and parse it.
-const wallet = '../p_key_solana';
+const wallet = '../../p_key_solana';
 const secretKey = JSON.parse(fs.readFileSync(wallet, 'utf-8'));
 
 // Create a keypair from your private key
@@ -40,9 +40,9 @@ console.log("metadataPDA %o", metadataPda);
 
 // Define your token's metadata
 const tokenMetadata = {
-	name: "Artificial Liquid Intelligence", // maximum 32 characters
-	symbol: "ALI", // maximum 8 characters
-	uri: "https://raw.githubusercontent.com/AI-Protocol-Official/ali_metaplex/master/ali_metadata1.json",
+	name: "Devnet Test Token", // maximum 32 characters
+	symbol: "DEV", // maximum 8 characters
+	uri: "https://raw.githubusercontent.com/AI-Protocol-Official/ali_metaplex/master/devnet_test/token_metadata.json",
 	sellerFeeBasisPoints: 0,
 	creators: null,
 	collection: null,
